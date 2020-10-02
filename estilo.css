@@ -1,0 +1,210 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #ddd url(img_1.jpg) repeat 0 0;
+ 	font: 85% arial, hevetica, sans-serif;
+ 	text-align: center;
+ 	color: #333;
+}
+
+  a:link { color: #4876FF; }
+  a:visited { color: #b93411; }
+  a:focus { color: #000; }
+  a:hover { color: #7d8206; }
+  a:active { color: red; }
+  h1, h2, h3, h4, h5, h6 { margin: 0 0 .5em; }
+
+  h2 {
+  	color: #B52C07;
+  	font: 140% georgia, times, "times new roman", serif;
+  	}
+
+  h2 a { text-decoration: none; }
+
+  h3 {
+  	color: #000000;
+  	font: 110% georgia, times, "times new roman", serif;
+  	}
+
+/* ------------------------------
+container styles
+------------------------------ */
+
+#container {
+	margin: 1em auto;
+	width: 977px;
+	background: #FFF;
+ 	text-align: left;
+ 	border: 1px solid #4876FF;
+	}
+
+/* ------------------------------
+header styles
+------------------------------ */
+
+#header {
+	background: url(Carbon.jpg) no-repeat 0 0;
+ 	height: 110px;
+      width: 100%;
+ 	position: relative;
+      border-bottom: 1px solid #fff;
+	}
+
+  #header h1 {
+  	position: absolute;
+  	left: -500em;
+  	}
+
+/*-------------------------------
+Barra de Decoração
+--------------------------------*/
+  #barra {
+      background: #4876FF;
+      color: #4876FF;
+      padding: 2px 0;
+      margin-bottom: 2px;
+  }
+
+
+/* ------------------------------
+menu styles
+------------------------------ */
+
+#menu {
+	float: right;
+	width: 165px;
+  border-left: 1px solid #4876FF;
+  padding-left: 15px;
+	}
+
+  #menu ul {
+  	margin: 1em 0;
+  	padding: 0;
+  	}
+
+  #menu ul li {
+  	margin: 0 0 1em;
+  	padding: 0;
+  	list-style-type: none;
+  	}
+
+/* ------------------------------
+contents styles
+------------------------------ */
+
+#contents {
+	float: left;
+	width: 670px;
+	margin: 0 0 0 20px;
+	}
+
+  #contents p { line-height: 165%; }
+  .blogentry { border-bottom: 1px solid #4876FF; }
+
+  .blogentry ul {
+  text-align: right;
+  margin: 1em 0;
+  	padding: 0;
+  	font-size: 95%;
+  	}
+
+  .blogentry li {
+  	list-style-type: none;
+  	display: inline;
+  	margin: 0;
+  	padding: 0 0 0 7px;
+  		}
+
+  .imagefloat {
+  	float: right;
+  	padding: 2px;
+  	border: 1px solid #9FA41D;
+  	margin: 0 0 10px 10px;
+  	}
+
+/* ------------------------------
+footer styles
+------------------------------ */
+
+  #footer {
+	clear: both;
+	background: #BEBEBE
+	;
+ 	color: #000000;
+ 	text-align: right;
+ 	font-size: 90%;
+  	padding: 5px;
+	}
+	.galeria {
+		width:680px; 
+		margin:0 auto;
+		text-align:left; 
+		}
+	.img-aqui { 
+		background: #000 url('p1.jpg') center no-repeat; 
+		width:500px; 
+		height:375px; 
+		position:relative; 
+		top:8px;
+		float:right; 
+		border:1px solid #fff;
+		}
+	ul.fotos {
+		position:relative;
+		list-style:none;  
+		width:162px;
+		padding:1px;
+		background:#999;
+		margin:15 0 15 0px;
+		padding:0; 
+	}
+	.fotos:after {
+		display: block;
+		content: ".";
+		height: 0;
+		font-size:0; 
+		visibility: hidden;
+		clear: both;
+		}
+	ul.fotos li {
+		width:75px;
+		height:50px;
+		float:left; 
+		border:2px solid #444;
+		margin:1px; 
+	}
+	ul.fotos li img {
+		border:none; 
+		width:75px;
+		height:50px;
+	}
+	ul.fotos li span img {
+		border:none;
+		width:500px;
+		height:375px;
+		
+	}
+	ul.fotos a {
+		display: block;
+		} 
+	ul.fotos a span {
+		display: none;
+	}
+	ul.fotos a:hover span.legenda {
+		display: block;
+		padding:5px 0;
+		color:#333; 
+		text-align:center; 
+		width:500px;
+		position:absolute;
+		top:375px;
+		left:-2px;
+	}
+	ul.fotos a:hover span {
+		display: block;
+		position: absolute; 
+		top:-5px; 
+		left: 177px; 
+		background:#fff;
+		border:2px solid #666;
+	   }	
